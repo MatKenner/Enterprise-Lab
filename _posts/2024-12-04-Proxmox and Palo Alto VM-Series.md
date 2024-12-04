@@ -1,4 +1,4 @@
-### **Setting Up Proxmox and Palo Alto VM Firewall in the Enterprise Network Lab**  
+### **Setting Up Proxmox and Palo Alto VM-Series Firewall in the Enterprise Network Lab**  
 
 In the previous blog post, I introduced the vision and hardware behind the network lab project. Today, we’re diving into the first steps of building the foundation of our enterprise network: installing **Proxmox VE** on the HP Mini PC and deploying a **Palo Alto VM firewall** to simulate enterprise-grade network security.  
 
@@ -39,13 +39,13 @@ Proxmox Virtual Environment (VE) is an open-source platform that combines virtua
 ### **Step 2: Deploying Palo Alto VM Firewall**  
 
 #### **What You Need**  
-- A Palo Alto firewall VM image (acquire it from [Palo Alto Networks](https://www.paloaltonetworks.com/) if you have access).  
+- A Palo Alto firewall VM-Series image (acquire it from [Palo Alto Networks](https://www.paloaltonetworks.com/) if you have access).  
 - A Proxmox-compatible format for the VM image (OVA, QCOW2, or VMDK).  
 - A valid license or trial license from Palo Alto.  
 
 #### **Steps to Deploy**  
 
-1. **Convert the VM Image (if needed)**:  
+1. **Convert the VM-Series Image (if needed)**:  
    - If your VM image is not in QCOW2 format, convert it using tools like `qemu-img`:
      ```bash
      qemu-img convert -f vmdk -O qcow2 <input.vmdk> <output.qcow2>
