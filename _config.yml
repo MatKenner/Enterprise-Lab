@@ -1,13 +1,19 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "Enterprise Network Simulation Lab"
+author: "Mat Kenner"
+description: "This project involves creating a comprehensive network lab to simulate a standard enterprise network. The physical infrastructure includes:
+
+    An HP Mini PC running Proxmox for virtualization and management of multiple virtualized network components.
+    A Cisco 2960X switch, serving as the core switch for wired networking and VLAN management.
+    Three Aruba AP-325 wireless access points, providing enterprise-grade Wi-Fi coverage and wireless connectivity simulations.
+
+The lab aims to replicate real-world networking scenarios, enabling testing, troubleshooting, and the development of networking skills in a controlled environment." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
+email: "matk@btccomputers.com"
+#twitter_username: "twitteruser"
+github_username: "MatKenner"
+linkedin_username: "MatKenner"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -20,7 +26,7 @@ linkedin_username: "linkedinuser"
 #########################################################################################
 theme: "minima"
 
-rss: rss
+#rss: rss
 
 kramdown:
   syntax_highlighter_opts:
